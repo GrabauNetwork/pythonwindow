@@ -1,5 +1,6 @@
+from tkinter import ttk
 class test():
     def window(root):
         frame = ttk.Frame(root, padding=15)
-        frame.grid();
+        frame.grid()
         return frame
